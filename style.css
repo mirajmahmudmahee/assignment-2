@@ -1,0 +1,164 @@
+/* Common Styles */
+
+body {
+    font-family: 'Kanit', sans-serif;
+
+
+
+}
+
+
+/*------------------------ 
+section-1 styles 
+--------------------------*/
+.top-section {
+    color: white;
+
+
+    background-color: #161616;
+    width: 1321px;
+    height: 646px;
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: 581px 613px;
+    background-position: 90%;
+    margin: 50px 140px 130px 140px;
+    border-radius: 30px;
+
+}
+
+.marcelo {
+
+    width: 531px;
+    height: 424px;
+
+
+    padding: 20px 684px 111px 106px;
+
+
+
+}
+
+.marcelo h1 {
+    font-size: 70px;
+}
+
+.live {
+    background-color: red;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 25px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+}
+
+/* 
+----------------------------------------
+blog section style
+---------------------------------------------
+*/
+.blog-section {
+    display: flex;
+
+    margin: 50px 140px 130px 140px;
+
+}
+
+.nav-bar {
+    height: 292px;
+    width: 270px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+
+}
+
+.match,
+.group {
+    background-color: white;
+    color: black;
+    width: 252px;
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.blog-nav {
+    background-color: red;
+    color: white;
+    width: 252px;
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.blogs {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    position: relative;
+}
+
+.blog {
+    width: 310px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.blog p,
+.icons {
+    align-items: center;
+}
+
+.blog-img {
+    width: 310px;
+    height: 175px;
+}
+
+.blog p {
+    font-size: 16px;
+}
+
+.blog p,
+h4 {
+    margin-left: 20px;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+}
+
+.blog .trans {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid;
+    width: 100px;
+    height: 32px;
+}
