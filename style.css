@@ -215,6 +215,21 @@ hr {
     padding: 20px 20%;
 }
 
+.fa-brands {
+    font-size: 3em;
+
+
+}
+
+.social {
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.anchor {
+    text-decoration: none;
+}
 
 
 
@@ -281,4 +296,282 @@ Match Page Style
 
 .match-detail {
     text-align: center;
+}
+
+
+/* 
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+mobile View
+-----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+ */
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    .blog-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        margin: 0 140px 130px 140px;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .nav-bar {
+        height: 292px;
+        width: 90%;
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+
+
+
+        display: grid;
+
+
+        align-items: center;
+        margin-right: 24px;
+        position: relative;
+
+    }
+
+    .match,
+    .group {
+        background-color: white;
+        color: black;
+        width: 252px;
+        height: 64px;
+        border-radius: 5px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        margin: 10px;
+
+
+    }
+
+    .blog-nav {
+        background-color: red;
+        color: white;
+        width: 252px;
+        height: 64px;
+        border-radius: 5px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid red;
+
+    }
+
+
+
+    .blogs,
+    .fixtures {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+
+        width: 75%;
+    }
+
+    .ekebare-tola {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20%;
+    }
+
+
+
+    .top-section {
+        color: white;
+
+
+        background-color: #161616;
+        width: 90%;
+        height: 398px;
+        background-image: url(banner.png);
+        background-repeat: no-repeat;
+        background-size: 323px 340px;
+        background-position: 95%;
+        margin: 50px 140px 0 140px;
+        border-radius: 30px;
+
+    }
+
+    .marcelo {
+
+        width: 323px;
+        height: 340px;
+
+        padding: 20px 684px 111px 106px;
+
+
+
+    }
+
+    .marcelo h1 {
+        font-size: 40px;
+    }
+
+    .live {
+        background-color: red;
+        width: 187px;
+        height: 56px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 25px;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: white;
+    }
+}
+
+
+/* 
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+Tab View
+-----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+ */
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    .blog-section {
+        display: grid;
+
+        margin: 0 140px 130px 140px;
+
+    }
+
+    footer {
+        width: 100%
+    }
+
+    .nav-bar {
+        height: 292px;
+        width: 90%;
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 24px;
+        position: relative;
+
+    }
+
+    .match,
+    .group {
+        background-color: white;
+        color: black;
+        width: 252px;
+        height: 64px;
+        border-radius: 5px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        margin: 10px;
+
+
+    }
+
+    .blog-nav {
+        background-color: red;
+        color: white;
+        width: 252px;
+        height: 64px;
+        border-radius: 5px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid red;
+
+    }
+
+
+
+    .blogs,
+    .fixtures {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 24px;
+
+        width: 75%;
+    }
+
+    .ekebare-tola {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-evenly;
+        padding: 20px 20%;
+    }
+
+    .tolar-tola {
+        justify-items: center;
+    }
+
+    .top-section {
+        color: white;
+
+
+        background-color: #161616;
+        width: 90%;
+        height: 398px;
+        background-image: url(banner.png);
+        background-repeat: no-repeat;
+        background-size: 323px 340px;
+        background-position: 95%;
+        margin: 50px 140px 0 140px;
+        border-radius: 30px;
+
+    }
+
+    .marcelo {
+
+        width: 323px;
+        height: 340px;
+
+        padding: 20px 684px 111px 106px;
+
+
+
+    }
+
+    .marcelo h1 {
+        font-size: 40px;
+    }
+
+    .live {
+        background-color: red;
+        width: 187px;
+        height: 56px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 25px;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: white;
+    }
 }
